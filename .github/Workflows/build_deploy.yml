@@ -5,4 +5,5 @@ jobs:
     run-on: ubuntu-lastest
     steps:
       - run: echo "Welcome to workflows"
+      - run: echo "Event that triggered this worklfow was ${{ github.event_name }}"
 
