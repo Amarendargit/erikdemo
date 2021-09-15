@@ -2,7 +2,7 @@ name: Build and Deploy Application
 on: [push]
 jobs:
   Test-workflow:
-    run-on: ubuntu-lastest
+    runs-on: ubuntu-lastest
     steps:
       - run: echo "Welcome to workflows"
       - run: echo "Event that triggered this worklfow was ${{ github.event_name }}"
